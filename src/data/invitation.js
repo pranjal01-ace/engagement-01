@@ -200,7 +200,7 @@ export const INVITATION_DATA = {
       category: "family",
       title: "Kashyap Parivaar",
       subtitle: "Santosh Kumar, Anju Kashyap & Anshika",
-      image: "/assets/images/gallery/gallery-07-bride-family.jpeg",
+      image: "/assets/images/bride-family/kashyap-family-blessings.jpeg",
       aspectRatio: "landscape",
       objectPosition: "object-[center_35%]"
     },
