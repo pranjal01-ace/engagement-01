@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <radialGradient id="ogBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#142145"/>
+      <stop offset="60%" stop-color="#080E21"/>
+      <stop offset="100%" stop-color="#03060F"/>
+    </radialGradient>
+    <linearGradient id="ogGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3B0"/>
+      <stop offset="40%" stop-color="#E5C158"/>
+      <stop offset="70%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8E6A1B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+
+  <!-- Ornate Border -->
+  <rect x="40" y="40" width="1120" height="550" rx="16" stroke="url(#ogGold)" stroke-width="3" fill="none"/>
+  <rect x="54" y="54" width="1092" height="522" rx="10" stroke="url(#ogGold)" stroke-width="1.5" stroke-dasharray="6,6" fill="none"/>
+
+  <!-- Center Content -->
+  <text x="600" y="140" font-family="'Cinzel', serif" font-size="22" letter-spacing="8" fill="#E5C158" text-anchor="middle">|| SHREE GANESHAY NAMAHA ||</text>
+  <text x="600" y="190" font-family="'Cinzel', serif" font-size="28" letter-spacing="4" fill="#FDFBF7" text-anchor="middle">ROYAL ENGAGEMENT INVITATION</text>
+
+  <!-- Names -->
+  <text x="600" y="300" font-family="'Cinzel Decorative', serif" font-size="64" font-weight="bold" fill="url(#ogGold)" text-anchor="middle">ANSHIKA &amp; AMAN</text>
+  
+  <line x1="350" y1="350" x2="850" y2="350" stroke="url(#ogGold)" stroke-width="2"/>
+  <circle cx="600" cy="350" r="6" fill="#FFF3B0"/>
+
+  <!-- Event Details -->
+  <text x="600" y="410" font-family="'Cinzel', serif" font-size="28" letter-spacing="3" fill="#FFF3B0" text-anchor="middle">22 NOVEMBER 2026 • 12:00 PM</text>
+  <text x="600" y="470" font-family="'Montserrat', sans-serif" font-size="20" fill="#EFE6D4" text-anchor="middle">Gate No. 2 ke samne, M.G. Polytechnic College, Agra Road, Hathras (U.P.)</text>
+
+  <text x="600" y="530" font-family="'Great Vibes', cursive" font-size="34" fill="#E5C158" text-anchor="middle">Together with Kashyap &amp; Singh Families</text>
+</svg>
+

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <radialGradient id="brideFamBg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#3A0B13"/>
+      <stop offset="60%" stop-color="#1E050A"/>
+      <stop offset="100%" stop-color="#0B0204"/>
+    </radialGradient>
+    <linearGradient id="goldFam1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3B0"/>
+      <stop offset="40%" stop-color="#E5C158"/>
+      <stop offset="70%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8E6A1B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#brideFamBg)"/>
+  
+  <rect x="25" y="25" width="750" height="550" rx="12" stroke="url(#goldFam1)" stroke-width="2" fill="none"/>
+  <rect x="35" y="35" width="730" height="530" rx="8" stroke="url(#goldFam1)" stroke-width="1" stroke-dasharray="4,4" fill="none"/>
+  
+  <!-- Royal Kalash Emblem -->
+  <g transform="translate(400, 220) scale(1.3)" stroke="url(#goldFam1)" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Kalash Pot -->
+    <path d="M-25 15 C-40 15 -45 55 0 60 C45 55 40 15 25 15 Z" fill="#D4AF37" fill-opacity="0.2"/>
+    <ellipse cx="0" cy="15" rx="25" ry="6" fill="#FFF3B0" fill-opacity="0.3"/>
+    <!-- Coconut & Mango Leaves -->
+    <circle cx="0" cy="0" r="14" fill="#D4AF37" fill-opacity="0.35"/>
+    <path d="M-15 8 C-35 -15 -20 -35 0 -25 C20 -35 35 -15 15 8" fill="none" stroke-width="2"/>
+    <line x1="0" y1="-25" x2="0" y2="-40" stroke-width="2"/>
+    <circle cx="0" cy="-42" r="3" fill="#FFF3B0"/>
+  </g>
+
+  <text x="400" y="380" font-family="'Cinzel Decorative', serif" font-size="30" font-weight="bold" fill="url(#goldFam1)" text-anchor="middle">KASHYAP FAMILY</text>
+  <text x="400" y="415" font-family="'Cinzel', serif" font-size="14" letter-spacing="3" fill="#E5C158" text-anchor="middle">SANTOSH KUMAR &amp; ANJU KASHYAP</text>
+  
+  <line x1="260" y1="440" x2="540" y2="440" stroke="url(#goldFam1)" stroke-width="1"/>
+  <circle cx="400" cy="440" r="3" fill="#FFF3B0"/>
+
+  <text x="400" y="475" font-family="'Montserrat', sans-serif" font-size="12" letter-spacing="2" fill="#EFE6D4" text-anchor="middle" opacity="0.85">Awaiting Family Photograph</text>
+  <text x="400" y="500" font-family="'Montserrat', sans-serif" font-size="11" fill="#D4AF37" text-anchor="middle" opacity="0.7">assets/images/family/bride-family.jpg</text>
+</svg>
+

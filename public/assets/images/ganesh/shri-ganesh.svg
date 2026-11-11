@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 550" fill="none">
+  <defs>
+    <!-- Royal Gold Gradients -->
+    <linearGradient id="ganeshGoldLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8D6"/>
+      <stop offset="30%" stop-color="#F3DC82"/>
+      <stop offset="65%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9E7818"/>
+    </linearGradient>
+
+    <linearGradient id="ganeshGoldRich" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FEEA98"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#7A560D"/>
+    </linearGradient>
+
+    <radialGradient id="divinePrabhaGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FFEAA7" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#D4AF37" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#B89225" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#040711" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Divine Halo / Prabhavali Backdrop -->
+  <circle cx="250" cy="220" r="190" fill="url(#divinePrabhaGlow)"/>
+  
+  <!-- Ornate Prabhavali Arch Rays -->
+  <g stroke="url(#ganeshGoldRich)" stroke-width="1.8" opacity="0.65">
+    <circle cx="250" cy="220" r="165" stroke-dasharray="3,6"/>
+    <circle cx="250" cy="220" r="178" stroke-width="2"/>
+    <circle cx="250" cy="220" r="186" stroke-dasharray="4,8" stroke-width="1"/>
+  </g>
+
+  <!-- Main Ganesha Figure Group -->
+  <g id="ganesha-figure" stroke="url(#ganeshGoldLight)" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Mukut / Royal Crown -->
+    <g fill="url(#ganeshGoldRich)" stroke="url(#ganeshGoldLight)" stroke-width="2.5">
+      <!-- Crown Base Tier -->
+      <path d="M 195 140 Q 250 120 305 140 L 300 122 Q 250 102 200 122 Z" fill="#D4AF37" fill-opacity="0.4"/>
+      <!-- Crown Tier 2 -->
+      <path d="M 205 120 Q 250 95 295 120 L 285 85 Q 250 65 215 85 Z" fill="#D4AF37" fill-opacity="0.5"/>
+      <!-- Crown Apex Crest -->
+      <path d="M 225 80 Q 250 35 275 80 Z" fill="#FFF8D6" fill-opacity="0.6"/>
+      <!-- Kalash Pinnacle Top -->
+      <circle cx="250" cy="32" r="6" fill="#FFF8D6" stroke="#9E7818" stroke-width="2"/>
+      <circle cx="250" cy="18" r="3" fill="#FFF8D6"/>
+      
+      <!-- Crown Jewels / Ornaments -->
+      <circle cx="250" cy="100" r="4.5" fill="#FFF8D6"/>
+      <circle cx="230" cy="112" r="3" fill="#FFF8D6"/>
+      <circle cx="270" cy="112" r="3" fill="#FFF8D6"/>
+      <circle cx="250" cy="65" r="3.5" fill="#FFF8D6"/>
+    </g>
+
+    <!-- Divine Ears (Supakarana) -->
+    <!-- Left Ear -->
+    <path d="M 195 150 C 130 155 110 215 140 260 C 160 290 185 270 200 245" 
+          fill="#D4AF37" fill-opacity="0.18" stroke-width="3"/>
+    <path d="M 180 180 C 145 185 135 230 155 250" 
+          fill="none" stroke-width="1.8" stroke-dasharray="3,3"/>
+
+    <!-- Right Ear -->
+    <path d="M 305 150 C 370 155 390 215 360 260 C 340 290 315 270 300 245" 
+          fill="#D4AF37" fill-opacity="0.18" stroke-width="3"/>
+    <path d="M 320 180 C 355 185 365 230 345 250" 
+          fill="none" stroke-width="1.8" stroke-dasharray="3,3"/>
+
+    <!-- Mastaka (Forehead) and Tilak -->
+    <!-- Sacred Tripundra Tilak & Trishul -->
+    <g stroke="#FFF8D6" fill="#D4AF37" stroke-width="2">
+      <!-- Curved Tilak Bars -->
+      <path d="M 225 152 Q 250 162 275 152" fill="none" stroke-width="3.5"/>
+      <path d="M 228 162 Q 250 172 272 162" fill="none" stroke-width="3"/>
+      <path d="M 232 172 Q 250 180 268 172" fill="none" stroke-width="2.5"/>
+      <!-- Red / Golden Kumkum Bindi -->
+      <circle cx="250" cy="165" r="5" fill="#E53935" stroke="#FFF8D6" stroke-width="1.5"/>
+    </g>
+
+    <!-- Divine Eyes -->
+    <g fill="#FFF8D6" stroke="#AA7A1E" stroke-width="1.5">
+      <!-- Left Eye -->
+      <path d="M 215 188 Q 230 184 240 193 Q 228 198 215 188 Z"/>
+      <circle cx="228" cy="190" r="2" fill="#380911"/>
+      <!-- Right Eye -->
+      <path d="M 285 188 Q 270 184 260 193 Q 272 198 285 188 Z"/>
+      <circle cx="272" cy="190" r="2" fill="#380911"/>
+    </g>
+
+    <!-- Tusks (Danta) -->
+    <!-- Left Broken Tusk (Ekadanta) -->
+    <path d="M 228 245 L 212 254 L 222 258 Z" fill="#FFF8D6" stroke="#AA7A1E" stroke-width="2"/>
+    <!-- Right Full Tusk -->
+    <path d="M 272 245 L 295 264 L 278 254 Z" fill="#FFF8D6" stroke="#AA7A1E" stroke-width="2"/>
+
+    <!-- Sacred Trunk (Vakratunda) with Modak Laddu at Tip -->
+    <g stroke-width="3.5" fill="none">
+      <!-- Graceful Left Trunk Flow -->
+      <path d="M 242 205 C 242 270 215 320 230 355 C 242 385 285 390 300 355 C 310 330 290 310 265 315 C 250 318 245 332 255 342" 
+            stroke="url(#ganeshGoldLight)" stroke-width="4"/>
+      <!-- Trunk Decorative Lines / Mala -->
+      <path d="M 235 240 Q 250 248 265 240" stroke-width="2"/>
+      <path d="M 233 260 Q 248 268 263 260" stroke-width="2"/>
+      <path d="M 230 280 Q 245 288 260 280" stroke-width="2"/>
+      <path d="M 234 300 Q 248 307 262 300" stroke-width="2"/>
+
+      <!-- Sacred Modak / Laddu in Trunk / Hand -->
+      <circle cx="260" cy="330" r="9" fill="#FFC107" stroke="#FFF8D6" stroke-width="2"/>
+      <circle cx="260" cy="330" r="4" fill="#FFE082"/>
+    </g>
+
+    <!-- Divine Hands / Mudra -->
+    <!-- Right Hand (Abhaya Mudra - Blessing & Protection) -->
+    <g fill="#D4AF37" fill-opacity="0.3" stroke="url(#ganeshGoldLight)" stroke-width="2.5">
+      <path d="M 145 270 C 130 250 140 220 165 235 L 175 260 Z"/>
+      <!-- Palm with Sacred Swastika / Lotus -->
+      <circle cx="152" cy="245" r="4" fill="#FFF8D6"/>
+    </g>
+
+    <!-- Sacred Belly (Lambodara) & Pitambara Dhoti -->
+    <path d="M 175 300 C 140 350 160 450 250 460 C 340 450 360 350 325 300" 
+          fill="#D4AF37" fill-opacity="0.12" stroke-width="3"/>
+    
+    <!-- Sacred Snake Belt (Nagabandha) -->
+    <path d="M 185 385 Q 250 425 315 385" stroke="#FFF8D6" stroke-width="3" fill="none"/>
+    <circle cx="250" cy="405" r="4.5" fill="#FFF8D6"/>
+
+    <!-- Royal Lotus Pedestal (Kamalasana) -->
+    <g stroke="url(#ganeshGoldLight)" stroke-width="2.2" fill="#D4AF37" fill-opacity="0.25">
+      <!-- Lotus Center Base -->
+      <path d="M 150 465 Q 250 450 350 465 L 370 495 Q 250 515 130 495 Z"/>
+      <!-- Lotus Petals -->
+      <path d="M 130 495 C 170 525 210 525 250 515 C 290 525 330 525 370 495" fill="none" stroke-width="2.5"/>
+      <path d="M 210 495 C 230 535 270 535 290 495" fill="#D4AF37" fill-opacity="0.4"/>
+      <circle cx="250" cy="485" r="3" fill="#FFF8D6"/>
+      <circle cx="210" cy="480" r="2.5" fill="#FFF8D6"/>
+      <circle cx="290" cy="480" r="2.5" fill="#FFF8D6"/>
+    </g>
+
+    <!-- Tiny Mooshak (Vahana) Devotee at Bottom Right -->
+    <g transform="translate(340, 475) scale(0.65)" stroke="url(#ganeshGoldLight)" stroke-width="2.2" fill="#D4AF37" fill-opacity="0.4">
+      <ellipse cx="25" cy="20" rx="14" ry="9"/>
+      <circle cx="37" cy="15" r="6"/>
+      <path d="M 39 12 Q 44 8 45 13"/>
+      <path d="M 11 20 Q 3 24 0 28" fill="none" stroke-width="2"/>
+      <circle cx="45" cy="20" r="3.5" fill="#FFC107"/> <!-- Laddu held by Mooshak -->
+    </g>
+  </g>
+</svg>
+

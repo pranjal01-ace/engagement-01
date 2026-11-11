@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2A3"/>
+      <stop offset="40%" stop-color="#D4AF37"/>
+      <stop offset="75%" stop-color="#AA7A1E"/>
+      <stop offset="100%" stop-color="#F4E4A6"/>
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#121C3B"/>
+      <stop offset="100%" stop-color="#040711"/>
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  <circle cx="50" cy="50" r="43" fill="none" stroke="url(#goldGrad)" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Stylized Ganesha / Kalash Emblem -->
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Tilak / Trishul -->
+    <path d="M50 20 L50 32 M44 24 Q50 30 50 35 Q50 30 56 24" />
+    <circle cx="50" cy="27" r="1.5" fill="#D4AF37" stroke="none"/>
+    <!-- Head & Ears -->
+    <path d="M35 38 Q30 38 32 46 Q35 54 44 54" />
+    <path d="M65 38 Q70 38 68 46 Q65 54 56 54" />
+    <!-- Trunk Curve with Modak -->
+    <path d="M50 38 Q50 62 42 66 Q36 70 42 75 Q48 78 54 73 Q58 69 57 65" />
+    <circle cx="58" cy="63" r="2.2" fill="#D4AF37" stroke="none"/>
+    <!-- Sacred Om curve -->
+    <path d="M47 44 Q50 42 53 44" />
+  </g>
+</svg>
+
